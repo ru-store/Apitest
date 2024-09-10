@@ -17,4 +17,4 @@ pprint(response.json())
 image_url = response.json()['url']
 # print(image_url)
 
-# 2 Скачать картину
+# 2 Скачать картину дня
