@@ -18,3 +18,6 @@ image_url = response.json()['url']
 # print(image_url)
 
 # 2 Скачать картину дня
+response = requests.get(image_url)
+with open('image.jpg', 'wb') as f:
+    f.write(response.content)
